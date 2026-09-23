@@ -1,91 +1,54 @@
-# Privacy Policy for **Bible Quiz Quest**
+# Privacy Policy for Bible Quiz Quest
 
-*Effective date: August 29 2026*
+Effective date: 23 September 2026
 
----
+## Who operates the app
 
-## 1. Introduction
+Bible Quiz Quest is operated by **GREASON TECH SOLUTIONS (PTY) LTD**. For support, privacy questions, or help with your account, contact **[zazikhetha@gmail.com](mailto:zazikhetha@gmail.com)**.
 
-**Bible Quiz Quest** (the “App”) is a mobile application built with React Native / Expo that provides multiple‑choice Bible quiz questions and optional voice‑answer input. This Privacy Policy explains how we (Greason Tech Solutions) collect, use, store, and protect the personal information of our users (“you” or “your”).
+## Information used
 
----
+When you create an account, we use your email address, account identifier and player name. Supabase processes your authentication credentials. We store your quiz progress, scores, earned blessings and completed stages so you can continue your journey across devices.
 
-## 2. Information We Collect
+Some versions also support province, team membership and tournament information. Existing game profiles, including player names, identifiers, progress, scores, province and team membership, can be publicly accessible through game services and may appear in leaderboards. Do not enter sensitive information in a player name. The first iOS release does not display public leaderboards, contests or store checkout.
 
-| Category | What we collect | How it is collected |
-|----------|----------------|---------------------|
-| **User‑provided data** | • Answers to quiz questions (selected option, voice recording)\n• Optional profile name (if you choose to create one) | Directly entered via the app UI or captured through the microphone when you use the voice‑answer feature. |
-| **Device & usage data** | • Device model, OS version, expo‑constants (e.g., app version, bundle identifier)\n• Crash reports, performance metrics | Automatically via Expo’s built‑in analytics and the React Native runtime. |
-| **Authentication / session data** | • Supabase user ID (UUID)\n• Temporary access tokens stored in `expo-secure-store` | Issued by Supabase after you sign in with your email/password or social provider. |
-| **Network data** | • IP address (transient, for request routing)\n• Referrer header for API calls | Sent with each HTTPS request to Supabase or Expo services. |
+Guest practice does not require an account. Its answers and score remain in the current app session and are not uploaded as account progress.
 
-> **Note:** The App does **not** collect location data, contacts, calendar, or any other personally identifiable information unless you explicitly provide it.
+## Optional microphone and speech recognition
 
----
+Voice answering is optional; you can answer by tapping. With your permission, the device's speech recognition service processes microphone audio and returns recognized words. Depending on your device and recognition provider, audio may be processed on the provider's servers rather than exclusively on your device. The provider's privacy practices apply.
 
-## 3. How We Use Your Information
+The current app does not save voice transcripts or send them to OpenAI. Listening stops when you leave the quiz or the app goes into the background. You can revoke microphone and speech permissions in device settings.
 
-1. **Quiz functionality** – To present questions, evaluate answers, and track your progress (score, completed stages).
-2. **Voice recognition** – To transcribe your spoken answer via Expo Speech Recognition; recordings are processed locally and are **not** stored on our servers.
-3. **User account management** – Supabase stores your user ID, email (if you sign‑up), and quiz progress securely.
-4. **Security** – Tokens stored in `expo-secure-store` protect your session and prevent unauthorized access.
-5. **Diagnostics & analytics** – To improve stability and performance, we may collect anonymized usage statistics.
+## Services and purposes
 
----
+Supabase supplies account authentication, database and hosting services. Account and quiz information is used to operate the game, save progress and provide support. Network services receive connection information such as an IP address when processing requests.
 
-## 4. Data Sharing & Disclosure
+Versions configured for Expo updates contact Expo's update service to check for and download compatible application updates. Those requests include technical update information such as platform and runtime version. Development tools such as Expo Doctor are not in-app analytics services. We do not claim that the React Native runtime automatically collects anonymous analytics.
 
-- **Supabase** – Your quiz progress and authentication data are stored in Supabase (hosted on `https://mvkjqpzgvwzwitcdgtzx.supabase.co`). Supabase’s own privacy policy governs that storage.
-- **Third‑party services** – The App uses Expo’s services (e.g., `expo-doctor`, `expo-updates`) which may receive minimal, non‑personal data required for building and updating the app.
-- **Legal requirements** – We will disclose information if required by law or to protect our rights.
+Service providers may process information outside your country. We do not sell your personal information. We may disclose information when legally required.
 
-We do **not** sell, trade, or otherwise share your personal data with advertising networks or unrelated third parties.
+## Retention and account deletion
 
----
+Account and game records are retained while your account remains active. To request deletion, email **[zazikhetha@gmail.com](mailto:zazikhetha@gmail.com?subject=Bible%20Quiz%20Quest%20account%20deletion)** from your registered address with the subject **Bible Quiz Quest account deletion**. Do not send your password. Support may verify ownership before processing the request.
 
-## 5. Data Retention & Deletion
+The request covers your authentication account and associated profile, quiz progress and any team or tournament personal data. Any information that must be retained for legal or security reasons should be explained when your request is processed. Backup copies may remain until the hosting provider's backup retention period expires.
 
-- **Supabase records** – Retained until you delete your account or request removal. You can delete your account via the app’s settings; this triggers a deletion request to Supabase.
-- **Local data** – Tokens stored in `expo-secure-store` are cleared when you uninstall the app or manually clear app data.
-- **Voice recordings** – Processed in‑memory only; no files are persisted.
+An in-app permanent-deletion flow is being prepared for the iOS release. It is not yet available as a verified live service. Opening an email or seeing a request screen does not establish that deletion is complete. This policy will be updated when the in-app service is operational.
 
----
+Uninstalling the app does not delete your server account. Session information uses operating-system secure storage; on iOS, Keychain items may persist after uninstall. Sign out to remove the app's local session. Secure storage does not mean all app data is stored in Apple's Secure Enclave.
 
-## 6. Security Measures
+## Security and your choices
 
-- All network traffic uses **HTTPS**.
-- Access tokens are stored in **secure enclave** via `expo-secure-store`.
-- Supabase employs standard PostgreSQL security practices (encryption at rest, row‑level security).
-- Regular dependency updates (SDK 57) mitigate known vulnerabilities.
+The app connects to its backend using HTTPS and uses platform secure storage for session information. No system can guarantee absolute security. Avoid sharing login credentials. You can contact support to request access to, correction of, or deletion of your information.
 
----
+## Age
 
-## 7. Children’s Privacy
+The intended audience is people aged 13 and above. Where local law requires parental permission, obtain it before creating an account. We do not knowingly offer accounts to children under 13. Contact support if an under-13 account has been created.
 
-The App is **not directed** at children under 13 years of age. We do not knowingly collect personal data from children. If we become aware of such data, we will delete it promptly.
+## Changes and contact
 
----
+We will update this page when the app or its data practices change. The effective date identifies the latest revision.
 
-## 8. Your Rights
-
-- **Access & correction** – You may view and edit your profile information within the app.
-- **Deletion** – You can delete your account, which removes all associated data from Supabase.
-- **Export** – You may request a copy of your quiz progress by contacting us.
-
----
-
-## 9. Changes to This Policy
-
-We may update this Privacy Policy from time to time. Changes will be posted within the app and on the hosted page with an updated effective date.
-
----
-
-## 10. Contact Information
-
-If you have questions or concerns about this Privacy Policy, please contact us at:
-
-**Email:** zazikhetha@gmail.com
-
----
-
-*This document is provided as a draft. Replace placeholder contact details and the URL where you will host the final version.*
+**GREASON TECH SOLUTIONS (PTY) LTD**  
+**Support and privacy:** [zazikhetha@gmail.com](mailto:zazikhetha@gmail.com)
