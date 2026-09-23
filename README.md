@@ -34,7 +34,7 @@ Account and game records are retained while your account remains active. To requ
 
 The request covers your authentication account and associated profile, quiz progress and any team or tournament personal data. Any information that must be retained for legal or security reasons should be explained when your request is processed. Backup copies may remain until the hosting provider's backup retention period expires.
 
-An in-app permanent-deletion flow is being prepared for the iOS release. It is not yet available as a verified live service. Opening an email or seeing a request screen does not establish that deletion is complete. This policy will be updated when the in-app service is operational.
+The iOS release includes an in-app permanent-deletion flow. Sign in, open Profile or the privacy screen, choose **Delete account permanently**, and confirm. The app reports success only after the deletion service confirms completion. If the request fails, retry or contact support; do not assume deletion has completed.
 
 Uninstalling the app does not delete your server account. Session information uses operating-system secure storage; on iOS, Keychain items may persist after uninstall. Sign out to remove the app's local session. Secure storage does not mean all app data is stored in Apple's Secure Enclave.
 
